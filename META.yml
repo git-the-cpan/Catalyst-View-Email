@@ -21,19 +21,6 @@ no_index:
   directory:
     - inc
     - t
-provides:
-  Catalyst::Helper::View::Email:
-    file: lib/Catalyst/Helper/View/Email.pm
-    version: '0.34'
-  Catalyst::Helper::View::Email::Template:
-    file: lib/Catalyst/Helper/View/Email/Template.pm
-    version: '0.34'
-  Catalyst::View::Email:
-    file: lib/Catalyst/View/Email.pm
-    version: '0.35'
-  Catalyst::View::Email::Template:
-    file: lib/Catalyst/View/Email/Template.pm
-    version: '0.35'
 requires:
   Authen::SASL: '2.13'
   Catalyst: '5.7'
@@ -51,4 +38,4 @@ resources:
   bugtracker: https://github.com/dhoss/catalyst-view-email/issues
   license: http://dev.perl.org/licenses/
   repository: http://github.com/dhoss/catalyst-view-email
-version: '0.35'
+version: '0.36'
